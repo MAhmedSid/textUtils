@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+
+.accordion-button:not(.collapsed) {
+  color: #0c63e4;
+  background-color: #FEB7EE;
+}
