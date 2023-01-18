@@ -1,6 +1,6 @@
 </strong>APP IS CREATED WITH REACT-JS</strong>
 
-this app is not deployed anywhere, anyone
+this app is not deployed anywhere, anymore.
 
 
 You can test it easily by using some following steps:
