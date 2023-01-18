@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import React, { useState} from 'react';
 import './App.css';
 import About from './Components/About';
 import Alert from './Components/Alert';
@@ -45,15 +45,13 @@ function App() {
     }
   }
 
-
-
   return (
     <>
       <Router>
         <Navbar title={"TextUtils"} toggle={toggleMode} mode={mode} />
         <Alert alert={alert} />
-
         <Routes>
+          <Route index exact path="/" element={<TextForm heading={"Enter your text to analyze"} alert={showAlert} firstbutton={"Convert to Upper Case"} secondbutton={'Convert to Lower Case'} mode={mode} />} />
           <Route index exact path="/home" element={<TextForm heading={"Enter your text to analyze"} alert={showAlert} firstbutton={"Convert to Upper Case"} secondbutton={'Convert to Lower Case'} mode={mode} />} />
           <Route exact path="/about" element={<About mode={mode} />} />
         </Routes>
