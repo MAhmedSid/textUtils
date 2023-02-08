@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link ,useLocation } from 'react-router-dom'
-
+import { Link, useLocation } from 'react-router-dom'
 
 
 
@@ -9,7 +8,8 @@ import { Link ,useLocation } from 'react-router-dom'
 
 export default function Navbar(props) {
 
-  let location =  useLocation();
+  let location = useLocation();
+
 
   return (
     <>
@@ -28,13 +28,9 @@ export default function Navbar(props) {
                 <Link className={`nav-link ${location.pathname === "/about" && "active"}`} to="/about">About</Link>
               </li>
             </ul>
-            <div>
-              <div className="form-check form-switch ">
-                <input className="form-check-input bg-danger text-dark border-dark shadow-none" onClick={props.toggle} type="checkbox" role="switch" id="flexSwitchCheckDefault" />
-                <label className="form-check-label text-white" htmlFor="flexSwitchCheckDefault">{props.mode === "light" ? "Enable Dark Mode" : "Disable Dark Mode"}</label>
-              </div>
+            <div class="form-check form-switch">
+              <input  class="form-check-input me-md-3" onClick={props.toggle} type="checkbox" role="switch" id="flexSwitchCheckDefault" />
             </div>
-
           </div>
         </div>
       </nav>
