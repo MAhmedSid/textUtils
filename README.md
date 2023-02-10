@@ -1,19 +1,47 @@
-</strong>APP IS CREATED WITH REACT-JS</strong>
+# TextUtils built with React
 
-this app is not deployed anywhere, anymore.
-
-
-You can test it easily by using some following steps:
-
-1. In the <code>src</code> folder, open <strong>App.js</strong> in the IDE.
-2. Then run command in terminal <code>npm i</code>.
-3. After the creation of <strong>node_modules</strong> folder. Run command <code>npm start</code> 
-4. Then open the local-host:3000 on your browser to view the app.
-
-
-Thankyou. I hope about viewer suggestions. So don't forget to suggest about my app. 
-
-True Developer,
+As the name describes, a website with multiple functionalities to perform with text.
 
 
 
+## Live Demo
+
+https://text-utils-henna.vercel.app/
+
+
+
+## Features
+
+- Light/dark mode toggle
+- Speech
+- Live previews
+- Word Count
+- Search for a word
+- Copy Text
+- est. Reading time
+
+
+## Tech Stack
+
+**Client:** React, Bootstrap 5
+
+
+
+
+##  Deployment
+
+This Project is Deployed on Vercel.
+
+To run this project on you local system, follow these steps
+
+1. run command in terminal.
+```bash
+  npm install
+```
+2. Then run 
+```bash
+npm start
+```
+and server will easily run.
+
+Created by **M.Ahmed**
